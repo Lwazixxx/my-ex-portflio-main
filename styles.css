@@ -216,8 +216,8 @@ body {
 }
 
 .scroll-arrow {
-  width: 2px;
-  height: 30px;
+  width: 4px;
+  height: 60px;
   background: white;
   position: relative;
 }
@@ -350,6 +350,11 @@ img.imd:hover{
 
 .projects-completed {
   margin-bottom: 2rem;
+}
+
+.projects-completed:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
 }
 
 .counter {
@@ -603,17 +608,16 @@ img.partner-image{
   transition: left 0.5s ease;
 }
 
-.service-card:hover::before {
-  left: 100%;
+.service-card:hover{
+ transform: scale(1.05);
+  transition: transform 0.5s ease;
+  background-color: #14141400;
 }
 
-.service-card:hover{
-  zoom: 110%;
-}
 
 .service-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-50px);
+  box-shadow: 0 20px 40px rgb(0, 195, 255);
 }
 
 .service-icon {
@@ -630,6 +634,8 @@ img.partner-image{
 
 .service-card:hover .service-icon {
   transform: scale(1.1);
+  color: white;
+  background-color: #1100ff00;
 }
 
 .service-icon i {
