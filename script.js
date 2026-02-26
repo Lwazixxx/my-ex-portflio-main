@@ -281,7 +281,7 @@ const createScrollToTopButton = () => {
     right: 20px;
     width: 50px;
     height: 50px;
-    background: #4f46e5;
+    background: #ff0000;
     color: white;
     border: none;
     border-radius: 50%;
@@ -290,7 +290,7 @@ const createScrollToTopButton = () => {
     visibility: hidden;
     transition: all 0.3s ease;
     z-index: 1000;
-    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
+    box-shadow: 0 5px 15px rgb(255, 0, 0);
   `;
   
   button.addEventListener('click', scrollToTop);
@@ -355,7 +355,7 @@ const createPreloader = () => {
       width: 50px;
       height: 50px;
       border: 3px solid #f3f3f3;
-      border-top: 3px solid #4f46e5;
+      border-top: 3px solid #ff0000;
       border-radius: 50%;
       animation: spin 1s linear infinite;
     "></div>
@@ -390,7 +390,7 @@ const createCustomCursor = () => {
     position: fixed;
     width: 20px;
     height: 20px;
-    background: #4f46e5;
+    background: #ff0000;
     border-radius: 50%;
     pointer-events: none;
     z-index: 9999;
@@ -420,12 +420,12 @@ const createCustomCursor = () => {
   interactiveElements.forEach(el => {
     el.addEventListener('mouseenter', () => {
       cursor.style.transform = 'scale(1.5)';
-      cursor.style.background = '#7c3aed';
+      cursor.style.background = '#ff0000';
     });
     
     el.addEventListener('mouseleave', () => {
       cursor.style.transform = 'scale(1)';
-      cursor.style.background = '#4f46e5';
+      cursor.style.background = '#ff0000';
     });
   });
 };
