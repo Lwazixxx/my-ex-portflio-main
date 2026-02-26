@@ -106,6 +106,7 @@ img.logo1{
   display: none;
   flex-direction: column;
   cursor: pointer;
+  cursor: red;
 }
 
 .bar {
@@ -896,6 +897,9 @@ img.partner-image{
 }
 
 /* Contact Section */
+#contact {
+  background: #000000;
+}
 .contact-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -916,7 +920,7 @@ img.partner-image{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(240, 240, 240);
   font-size: 1.2rem;
   flex-shrink: 0;
 }
@@ -924,11 +928,11 @@ img.partner-image{
 .contact-details h3 {
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #1f2937;
+  color: #ffffff;
 }
 
 .contact-details p {
-  color: #6b7280;
+  color: #ffffff;
 }
 
 .contact-details a {
@@ -938,12 +942,13 @@ img.partner-image{
 }
 
 .contact-details a:hover {
-  color: #3730a3;
+  color: #ffffff;
 }
 
 /* Contact Form */
 .contact-form {
-  background: #f9fafb;
+  background: #1f1f1f;
+  border: 1px solid #363636;
   padding: 2rem;
   border-radius: 15px;
 }
@@ -956,17 +961,25 @@ img.partner-image{
 .form-group textarea {
   width: 100%;
   padding: 12px 16px;
-  border: 2px solid #e5e7eb;
+  border: 2px solid #000000;
+  background-color: #000000;
+  border: 1px solid #2e2e2e;
   border-radius: 8px;
   font-size: 1rem;
   transition: border-color 0.3s ease;
   font-family: inherit;
 }
 
+textarea.form-group input,.form-group textarea:hover{
+  min-height: 120px;
+  background-color: #d1d5db;
+  color: #000000;
+}
+
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #4f46e5;
+  border-color: #313131;
 }
 
 .form-group textarea {
@@ -975,10 +988,12 @@ img.partner-image{
 }
 
 /* Footer */
+
 .footer {
-  background: #1f2937;
+  background: #000000;
   color: white;
   padding: 3rem 0 1rem;
+  border: 1px solid #363636;
 }
 
 .footer-content {
@@ -990,7 +1005,7 @@ img.partner-image{
 
 .footer-section h3 {
   margin-bottom: 1rem;
-  color: #4f46e5;
+  color: #ececec;
 }
 
 .footer-section p {
@@ -1013,7 +1028,7 @@ img.partner-image{
 }
 
 .footer-section ul li a:hover {
-  color: #4f46e5;
+  color: #ff0000;
 }
 
 .footer-contact p {
@@ -1025,7 +1040,7 @@ img.partner-image{
 }
 
 .footer-contact i {
-  color: #4f46e5;
+  color: #ff0000;
   width: 16px;
 }
 
@@ -1036,7 +1051,7 @@ img.partner-image{
 }
 
 .footer-contact a:hover {
-  color: #4f46e5;
+  color: #ffffff;
 }
 
 .footer-bottom {
@@ -1047,7 +1062,7 @@ img.partner-image{
 }
 
 .footer-bottom a {
-  color: #4f46e5;
+  color: #ff0000;
   text-decoration: none;
 }
 
