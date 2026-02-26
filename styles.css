@@ -27,7 +27,7 @@ body {
   position: fixed;
   top: 10;
   width: 100%;
-  background: rgba(0, 0, 0, 0.95);
+  background: #ffffff;
   backdrop-filter: blur(10px);
   z-index: 1000;
   transition: all 0.3s ease;
@@ -41,14 +41,14 @@ body {
 
 #home {
   color: #ffffff;
-background-color: red;
+background-color: #DA435A;
 border: 10px solid red;
 
 }
 
 p.corny{
   color: #ffffff;
-  background-color: red;
+  background-color: #DA435A;
   border: 10px solid red;
   padding: 20px;
   border-radius: 10px;
@@ -90,7 +90,7 @@ p.corny:hover{
 
 .nav-link {
   text-decoration: none;
-  color: #ffffff;
+  color: #DA435A;
   font-weight: 500;
   transition: color 0.3s ease;
   position: relative;
@@ -118,7 +118,7 @@ p.corny:hover{
 }
 
 img.logo1{
-  margin-top: 60px;
+  margin-bottom: 3px;
   width: 25%;
   height: 25%;
 }
@@ -149,7 +149,7 @@ img.logo1{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #000000 50%, #ff0202 50%);
+  background: linear-gradient(135deg, #000000 50%, #DA435A 50%);
   color: rgb(255, 255, 255);
   position: relative;
   overflow: hidden;
