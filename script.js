@@ -281,7 +281,7 @@ const createScrollToTopButton = () => {
     right: 20px;
     width: 50px;
     height: 50px;
-    background: #4f46e5;
+    background: #ff0000;
     color: white;
     border: none;
     border-radius: 50%;
