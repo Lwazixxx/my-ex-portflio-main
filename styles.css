@@ -39,6 +39,22 @@ body {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
+#home {
+  color: #ffffff;
+background-color: red;
+border: 10px solid red;
+
+}
+
+p.corny{
+  color: #ffffff;
+  background-color: red;
+  border: 10px solid red;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: medium;
+}
+
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -97,9 +113,15 @@ body {
 }
 
 img.logo1{
-  margin-top: 20px;
-  width: 23%;
-  height: 23%;
+  margin-top: 60px;
+  width: 25%;
+  height: 25%;
+}
+
+#que{
+  margin-top: 60px;
+  width: 20%;
+  height: 20%;
 }
 
 .hamburger {
@@ -394,6 +416,13 @@ img.imd:hover{
 .about-partners {
   margin-top: 0rem;
   border-radius: 400px;
+}
+
+#partner-image-3{
+  margin: auto;
+  border-radius: 200px;
+  width: 150%;
+  height: 500PX;
 }
 
 img.partner-image{
