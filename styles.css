@@ -55,6 +55,11 @@ p.corny{
   font-size: medium;
 }
 
+p.corny:hover{
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+}
+
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -942,6 +947,13 @@ img.partner-image{
   margin-bottom: 2rem;
 }
 
+.contact-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  transform: scale(1.2);
+}
+
 .contact-icon {
   width: 50px;
   height: 50px;
@@ -953,6 +965,13 @@ img.partner-image{
   color: rgb(240, 240, 240);
   font-size: 1.2rem;
   flex-shrink: 0;
+}
+
+.contact-icon:hover {
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
+  transform: scale(1.5);
+  transition: all 0.3s ease;
 }
 
 .contact-details h3 {
