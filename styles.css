@@ -367,7 +367,7 @@ img.carousel-item{
     cursor: pointer;
 }
 
-.partner-image  :hover {
+.partner-image:hover {
     transform: scale(1.08); 
     filter: brightness(1.1);
     box-shadow: 0 10px 20px rgb(255, 255, 255);
