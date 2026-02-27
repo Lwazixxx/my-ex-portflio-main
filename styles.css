@@ -954,6 +954,13 @@ img.partner-image{
   transform: scale(1.2);
 }
 
+  #item:hover{
+     transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(218, 67, 90, 0.3);
+  transition: all 0.3s ease;
+  transform: scale(1.2);
+  }
+
 .contact-icon {
   width: 50px;
   height: 50px;
