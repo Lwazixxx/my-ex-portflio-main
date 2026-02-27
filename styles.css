@@ -42,14 +42,14 @@ body {
 #home {
   color: #ffffff;
 background-color: #DA435A;
-border: 10px solid red;
+border: 10px solid #DA435A;
 
 }
 
 p.corny{
   color: #ffffff;
   background-color: #DA435A;
-  border: 10px solid red;
+  border: 10px solid #DA435A;
   padding: 20px;
   border-radius: 10px;
   font-size: medium;
@@ -79,7 +79,7 @@ p.corny:hover{
 }
 
 .nav-logo a:hover {
-  color: #ff0000;
+  color:#DA435A;
 }
 
 .nav-menu {
@@ -98,7 +98,7 @@ p.corny:hover{
 
 .nav-link:hover,
 .nav-link.active {
-  color: #ff0000;
+  color: #DA435A;
 }
 
 .nav-link::after {
@@ -108,7 +108,7 @@ p.corny:hover{
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #ff0000;
+  background-color: #DA435A;
   transition: width 0.3s ease;
 }
 
@@ -133,7 +133,7 @@ img.logo1{
   display: none;
   flex-direction: column;
   cursor: pointer;
-  cursor: red;
+  cursor: #DA435A;
 }
 
 .bar {
@@ -204,9 +204,9 @@ img.logo1{
 }
 
 .typewriter {
-  color: #ff0000;
+  color: #DA435A;
   font-weight: 600;
-  border-right: 2px solid #ff0000;
+  border-right: 2px solid #DA435A;
   animation: blink 1s infinite;
 }
 
@@ -282,30 +282,30 @@ img.logo1{
 }
 
 .btn-primary {
-  background: #ff0000;
+  background: #DA435A;
   color: white;
-  border-color: #ff0000;
+  border-color: #DA435A;
 }
 
 .btn-primary:hover {
   background: #ffffff;
-  border-color: #ff0000;
-  color: #ff0000;
+  border-color: #DA435A;
+  color: #DA435A;
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(218, 67, 90, 0.3);
 }
 
 .btn-outline {
   background: transparent;
-  color: rgb(255, 0, 0);
-  border-color: rgb(255, 0, 0);
+  color: #DA435A;
+  border-color: #DA435A;
 }
 
 .btn-outline:hover {
   background: white;
-  color: #ff0000;
+  color: #DA435A;
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 20px rgba(218, 67, 90, 0.3);
 }
 
 /* Section Styles */
@@ -376,7 +376,7 @@ img.imd:hover{
 
 .info-label {
   font-weight: 600;
-  color: #ff0000;
+  color: #DA435A;
 }
 
 .info-value {
@@ -397,7 +397,7 @@ img.imd:hover{
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  background: rgb(241, 0, 0);
+  background: #DA435A;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -507,7 +507,7 @@ img.partner-image{
 
 .tab-btn.active,
 .tab-btn:hover {
-  background: #ff0000;
+  background: #DA435A;
   color: white;
 }
 
@@ -552,13 +552,13 @@ img.partner-image{
   top: 0;
   width: 12px;
   height: 12px;
-  background: #ff0000;
+  background: #DA435A;
   border-radius: 50%;
   transform: translateX(-50%);
 }
 
 .timeline-date {
-  color: #ec0000;
+  color: #DA435A;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -608,7 +608,7 @@ img.partner-image{
 }
 
 .skill-percentage {
-  color: #ff0000;
+  color: #DA435A;
   font-weight: 600;
 }
 
@@ -621,7 +621,7 @@ img.partner-image{
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(90deg, #ff0000, #ff0000);
+  background: linear-gradient(90deg, #DA435A, #DA435A);
   border-radius: 4px;
   width: 0;
   transition: width 1s ease;
@@ -663,20 +663,20 @@ img.partner-image{
 .service-card:hover{
  transform: scale(1.05);
   transition: transform 0.5s ease;
-  background-color: #e20303;
+  background-color: #DA435A;
   color: white;
 }
 
 
 .service-card:hover {
   transform: translateY(-50px);
-  box-shadow: 0 20px 40px rgb(255, 255, 255);
+  box-shadow: 0 20px 40px rgba(218, 67, 90, 0.3);
 }
 
 .service-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #ff0000, #ff0000);
+  background: linear-gradient(135deg, #DA435A, #DA435A);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -687,13 +687,13 @@ img.partner-image{
 
 .service-icon:hover{
   background-color: #ffffff;
-  color: rgb(255, 0, 0);
+  color: #DA435A;
 }
 
 .service-card:hover .service-icon {
   transform: scale(1.1);
   color: white;
-  background-color: #1100ff00;
+  background-color: #DA435A;
 }
 
 .service-icon i {
@@ -749,7 +749,7 @@ img.partner-image{
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(218, 67, 90, 0.3);
 }
 
 .project-image {
@@ -774,7 +774,7 @@ img.partner-image{
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 0, 0, 0.9);
+  background: rgba(218, 67, 90, 0.9);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -794,7 +794,7 @@ img.partner-image{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff0000;
+  color: #DA435A;
   font-size: 1.5rem;
   text-decoration: none;
   transition: transform 0.3s ease;
@@ -821,7 +821,7 @@ img.partner-image{
 
 /* Stats Section */
 .stats-section {
-  background: linear-gradient(135deg, #ff0000, #ff0505);
+  background: linear-gradient(135deg, #DA435A, #DA435A);
   border-radius: 20px;
   padding: 3rem 2rem;
   margin-top: 4rem;
@@ -871,7 +871,7 @@ img.partner-image{
 
 .blog-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(218, 67, 90, 0.3);
 }
 
 .blog-image img {
@@ -904,7 +904,7 @@ img.partner-image{
 }
 
 .blog-content h3 a:hover {
-  color: #4f46e5;
+  color: #DA435A;
 }
 
 .blog-content p {
@@ -949,7 +949,7 @@ img.partner-image{
 
 .contact-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(218, 67, 90, 0.3);
   transition: all 0.3s ease;
   transform: scale(1.2);
 }
@@ -957,7 +957,7 @@ img.partner-image{
 .contact-icon {
   width: 50px;
   height: 50px;
-  background: #ff0000;
+  background: #DA435A;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -969,7 +969,7 @@ img.partner-image{
 
 .contact-icon:hover {
   background-color: #ffffff;
-  color: rgb(255, 0, 0);
+  color: #DA435A;
   transform: scale(1.5);
   transition: all 0.3s ease;
 }
@@ -985,7 +985,7 @@ img.partner-image{
 }
 
 .contact-details a {
-  color: #ff0000;
+  color: #DA435A;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -1077,7 +1077,7 @@ textarea.form-group input,.form-group textarea:hover{
 }
 
 .footer-section ul li a:hover {
-  color: #ff0000;
+  color: #ffffff;
 }
 
 .footer-contact p {
@@ -1089,7 +1089,7 @@ textarea.form-group input,.form-group textarea:hover{
 }
 
 .footer-contact i {
-  color: #ff0000;
+  color: #DA435A;
   width: 16px;
 }
 
@@ -1111,12 +1111,12 @@ textarea.form-group input,.form-group textarea:hover{
 }
 
 .footer-bottom a {
-  color: #ff0000;
+  color: #DA435A;
   text-decoration: none;
 }
 
 .footer-bottom i {
-  color: #ef4444;
+  color: #DA435A;
 }
 
 /* Animations */
