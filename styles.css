@@ -1011,9 +1011,10 @@ img.partner-image{
 }
 
   #item:hover{
-    background-color: #ffffff;
-    color: #DA435A;
-    transform: scale(1.5);
+ transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(218, 67, 90, 0.3);
+  transition: all 0.3s ease;
+  transform: scale(1.2);
   }
 
 .contact-icon {
