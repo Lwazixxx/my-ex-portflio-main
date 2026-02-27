@@ -349,6 +349,8 @@ section {
 
 .partner-image{
     display: block;
+    Background-color: #ff0000;
+    color: red;
     width: 100%;             
     max-width: 300px;       
     margin: 0 auto;         
