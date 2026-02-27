@@ -4,50 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lethabo Malulelwa</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="../styles.css">          <!-- adjust path as needed -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="#home"><img class="logo1" id="que" src="/logo/6.png" alt="" srcset=""></a>
+                <a href="#home"><img class="logo1" id="que" src="/logo/6.png" alt=""></a>
             </div>
             <ul class="nav-menu" id="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#resume" class="nav-link"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#services" class="nav-link"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#blog" class="nav-link"></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link"></a>
-                </li>
-
-                <li class="nav-item">
-                    
-                </li>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <div class="hamburger" id="hamburger">
-                
-            </div>
+            <div class="hamburger" id="hamburger"></div>
         </div>
     </nav>
-
 
     <!-- About Section -->
     <section id="about" class="about">
@@ -58,10 +38,22 @@
             <div class="about-content">
                 <div class="about-info">
 
+                    <!-- Carousel -->
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img class="carousel-item active" src="/Projects/4C.jpeg" alt="Project 1">
+                            <img class="carousel-item" src="/Projects/6B.jpeg" alt="Project 2">
+                            <img class="carousel-item" src="/Projects/12.jpeg" alt="Project 3">
+                            <img class="carousel-item" src="/Projects/14.jpeg" alt="Project 4">
+                        </div>
+                        <button class="carousel-btn carousel-prev">&#10094;</button>
+                        <button class="carousel-btn carousel-next">&#10095;</button>
+                        <div class="carousel-dots"></div>
+                    </div>
+
                     <div>
-                        <h2 class="section-title">Creative Portrait & Visual Art Direction</h2>
+                        <h2 class="section-title">Creative Portrait &amp; Visual Art Direction</h2>
                         <p class="corny">This project involved creating a creative portrait and visual art direction for a client's campaign, including concept development, lighting setup, and post-production editing.</p>
-                
                     </div>
 
                     <div class="info-grid">
@@ -140,7 +132,7 @@
                         </div>
                         <div class="contact-details">
                             <h3>Email Address</h3>
-                            <p><a href="Email">l_maluleka@icloud.com</a></p>
+                            <p><a href="mailto:l_maluleka@icloud.com">l_maluleka@icloud.com</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -217,6 +209,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../script.js"></script> <!-- same script as before -->
 </body>
 </html>

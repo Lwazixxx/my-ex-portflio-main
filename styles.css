@@ -345,6 +345,9 @@ section {
 }
 
 /* About Section */
+
+
+
 .about {
   background: #000000;
 }
@@ -955,10 +958,9 @@ img.partner-image{
 }
 
   #item:hover{
-     transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(218, 67, 90, 0.3);
-  transition: all 0.3s ease;
-  transform: scale(1.2);
+    background-color: #ffffff;
+    color: #DA435A;
+    transform: scale(1.5);
   }
 
 .contact-icon {
@@ -1374,4 +1376,58 @@ textarea.form-group input,.form-group textarea:hover{
 .slide-in-right.visible {
   opacity: 1;
   transform: translateX(0);
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    border: 3px solid rgba(255, 255, 255, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6rem;
+    cursor: pointer;
+    z-index: 20;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.45);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+}
+
+.carousel-prev { left: 18px; }
+.carousel-next { right: 18px; }
+
+.carousel-prev:hover,
+.carousel-next:hover {
+    transform: translateY(-50%) scale(1.06);
+    box-shadow: 0 18px 38px rgba(0,0,0,0.55);
+    background: rgba(0,0,0,0.9);
+}
+
+.carousel-prev:active,
+.carousel-next:active {
+    transform: translateY(-50%) scale(0.98);
+}
+
+.carousel-prev:focus,
+.carousel-next:focus {
+    outline: 3px solid rgba(255,255,255,0.12);
+    outline-offset: 4px;
+}
+
+/* smaller buttons on narrow screens */
+@media (max-width: 768px) {
+    .carousel-prev,
+    .carousel-next {
+        width: 56px;
+        height: 56px;
+        font-size: 1.6rem;
+        left: 10px;
+        right: 10px;
+    }
 }
